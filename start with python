@@ -1,3 +1,5 @@
 print("hello world")
 a=input("Enter your name")
 print("your name is",name)
+b=input("enter your age")
+print("your age is", age)
