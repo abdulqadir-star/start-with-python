@@ -1,0 +1,7 @@
+table=int(input("Enter the table no :"))
+choice=int(input("Enter your length of table :"))
+a=1
+while(a<=choice):
+  print(table*a)
+  a+=1
+  
