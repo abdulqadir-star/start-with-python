@@ -1,0 +1,3 @@
+temp=int(input("Enter the temprature here : "))
+if temp <0:
+print(temp,"is very cold day")
