@@ -6,4 +6,4 @@ elif temp<30 and temp >0:
 elif(temp>30):
   print(temp,"is hot day")
 else:
-  
+  print("enter the corect temprature")
