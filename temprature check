@@ -1,3 +1,9 @@
 temp=int(input("Enter the temprature here : "))
 if temp <0:
-print(temp,"is very cold day")
+  print(temp,"is very cold day")
+elif temp<30 and temp >0:
+  print(temp,"is average day")
+elif(temp>30):
+  print(temp,"is hot day")
+else:
+  
