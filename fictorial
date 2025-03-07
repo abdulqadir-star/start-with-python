@@ -1,0 +1,6 @@
+print("the fictorail of the number")
+def fictorial(n):
+  if n==1
+  return 1
+  return n*fictorial(n-1)
+fictorial(5)
