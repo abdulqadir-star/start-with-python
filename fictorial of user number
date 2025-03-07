@@ -1,0 +1,8 @@
+print("finding the fictorial")
+n=int(input("Enter the number you want to find fictorial :"))
+def fic(n):
+  if n==1:
+    return 1
+  return n*fic(n-1)
+  
+print(fic(n))  
