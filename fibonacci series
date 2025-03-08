@@ -1,7 +1,6 @@
-def fibonacci(n):
-  mylist=[1,2]
-  for i in range(2,n)
-  mylist.append(mylist[i-1]+mylist[i-2])
-  return mylist[:n]
-print(fibonacci(n))
-  
+def fib(n):
+  fibsir=[1,2]
+  for i in range(2,n):
+    fibsir.append(fibsir[i-1]+fibsir[i-2])
+  return fibsir[:n]
+print(fib(5))
