@@ -1,8 +1,8 @@
 class Car:
-  def init (self,modle,brand):
+  def __init__ (self,modle,brand):
     self.brand=brand
     self.modle=modle
-  def display(self)
+  def display(self):
     print("car brand is :",self.brand)
     print("car modle is :",self.modle)
 my_car=Car("Toyota","Corola")
