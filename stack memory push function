@@ -3,4 +3,7 @@ class CustomerStack:
     self.stack=[]
     self.max_value=max_value
   def push(self,item):
-    if len(self.stack)<(self.max_value)
+    if len(self.stack)<(self.max_value):
+      self.stack.append(item)
+      print(item)
+    
