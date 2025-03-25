@@ -1,0 +1,2 @@
+class CustomerStack:
+  def __init__(self,max_value):
