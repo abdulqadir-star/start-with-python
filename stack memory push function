@@ -6,4 +6,12 @@ class CustomerStack:
     if len(self.stack)<(self.max_value):
       self.stack.append(item)
       print(item)
+    else:
+      print("stack overflow")
+stack=CustomerStack(3)
+stack.push(2)
+stack.push(3)
+stack.push(4)
+stack.push(5)
+stack.push(6)
     
