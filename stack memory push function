@@ -1,2 +1,4 @@
 class CustomerStack:
   def __init__(self,max_value):
+    self.stack=[]
+    self.max_value=max_value
