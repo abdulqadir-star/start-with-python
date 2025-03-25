@@ -2,3 +2,5 @@ class CustomerStack:
   def __init__(self,max_value):
     self.stack=[]
     self.max_value=max_value
+  def push(self,item):
+    if len(self.stack)<(self.max_value)
