@@ -2,3 +2,4 @@ from queue import Queue
 q=Queue()
 q.put("ali")
 q.put("bilal")
+print(q.get())
