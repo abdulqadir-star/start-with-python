@@ -2,5 +2,7 @@ from queue import Queue
 q=Queue(maxsize=3)
 q.put("ali")
 q.put("bilal")
+print("is queue full :",q.full())
 print(q.get())
 print("the items in the queue are : " , q.qsize())
+print("is queue empty :",q.empty())
